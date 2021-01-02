@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/rowTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:fontFamily="serif"
+        android:text="wwww"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#3aa8c1"
+        android:background="@drawable/submit"
+        android:padding="10dp"
+        />
+
+    <Space
+        android:layout_below="@+id/rowTxt"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@mipmap/backgroundsubjectlist"
+    tools:context=".TeacherHomeScreen"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/changepass"
+        android:layout_width="150dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/metting"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/button"
+        android:text="change password"
+        app:layout_constraintBottom_toTopOf="@+id/sub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/metting"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/metting"
+        android:layout_width="150dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="156dp"
+        android:background="@drawable/button"
+        android:text="Live Class"
+        app:layout_constraintBottom_toTopOf="@+id/atten"
+        app:layout_constraintEnd_toStartOf="@+id/changepass"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/atten"
+        android:layout_width="150dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/changepass"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button"
+        android:text="student"
+        app:layout_constraintBottom_toTopOf="@+id/logoutt"
+        app:layout_constraintEnd_toStartOf="@+id/sub"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/metting"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/logoutt"
+        android:layout_width="150dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/quizlink"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="113dp"
+        android:background="@drawable/button"
+        android:text="logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/quizlink"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atten" />
+
+    <Button
+        android:id="@+id/quizlink"
+        android:layout_width="150dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/sub"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="113dp"
+        android:background="@drawable/button"
+        android:text="quiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/logoutt"
+        app:layout_constraintTop_toBottomOf="@+id/sub" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="150dp"
+        android:layout_height="88dp"
+
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button"
+        android:text="drive links"
+        app:layout_constraintBottom_toTopOf="@+id/quizlink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/atten"
+        app:layout_constraintTop_toBottomOf="@+id/changepass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

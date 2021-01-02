@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@mipmap/backgroundsubjectlist">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="199dp"
+        android:layout_height="164dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo" />
+
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="260dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:background="@drawable/loginbackground"
+        android:elevation="35dp"
+        tools:context=".StudentLogin">
+
+        <EditText
+            android:id="@+id/edipassword"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:autoSizeMaxTextSize="2dp"
+            android:autoSizeTextType="uniform"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:ems="10"
+
+
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:password="true"
+            android:textAllCaps="true"
+            android:textColorHint="#2327E7" />
+
+
+        <EditText
+            android:id="@+id/edimail"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerHorizontal="true"
+            android:autoSizeMaxTextSize="2dp"
+            android:autoSizeTextType="uniform"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:ems="10"
+            android:hint=" Teacher's Email"
+            android:inputType="text"
+            android:padding="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textAllCaps="true"
+            android:textColorHint="#2327E7" />
+
+        <Button
+            android:id="@+id/loginmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edipassword"
+            android:layout_alignBottom="@+id/edipassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="90dp"
+            android:layout_marginBottom="-82dp"
+            android:background="@drawable/loginbutton"
+            android:padding="20dp"
+            android:text="Login"
+            android:textColor="@color/ic_launcher_background" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

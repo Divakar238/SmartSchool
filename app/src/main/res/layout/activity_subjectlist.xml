@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".subjectlist"
+    android:background="@mipmap/backgroundsubjectlist">
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:autoSizeMaxTextSize="2dp"
+        android:autoSizeTextType="uniform"
+        android:inputType="text"
+        android:ems="10"
+        android:hint="Enter Notes Drive Url"
+        android:padding="20dp"
+        android:textAllCaps="true"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/videolink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="20dp"
+        android:autoSizeMaxTextSize="2dp"
+        android:autoSizeTextType="uniform"
+        android:inputType="text"
+        android:ems="10"
+        android:hint="Enter Video Drive Url"
+        android:padding="20dp"
+        android:textAllCaps="true"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/data"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:background="@drawable/loginbutton"
+        android:padding="30dp"
+        android:text="enter"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/cls"
+        android:layout_width="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:padding="30dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</RelativeLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus"
+    android:background="#F5FFC107">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imagevieww"
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:layout_height="136dp"
+            android:src="@drawable/logo" />
+
+
+        <TextView
+        android:id="@+id/txtone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagevieww"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Alok Vidhya Vihar Senior Secondary School"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtone"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:text="3/68 Khandu Colony, Banswara "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttwo"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:text="Nursery to 12th (Science and commerce)"
+        android:textSize="25sp" />
+
+
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt3"
+            android:layout_marginTop="45dp"
+            android:clickable="true"
+            android:fontFamily="sans-serif-light"
+            android:text="CONTACT: 02962257164"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="45dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/instagram" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt5"
+            android:layout_below="@id/instagram"
+            android:layout_marginTop="50dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="CONTACT VIA MAIL:"
+            android:clickable="true"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="To:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp"
+            android:inputType="textEmailAddress"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+        <EditText
+            android:id="@+id/edit_text_subject"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:inputType="textEmailSubject"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+        <EditText
+            android:id="@+id/edit_text_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="10"
+            android:gravity="start|top"/>
+        <Button
+            android:id="@+id/buttonsend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="send"
+
+            android:textColor="#ffffff"
+            android:background="@drawable/loginbutton"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

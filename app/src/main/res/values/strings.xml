@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ALOK VIDHYA VIHAR SCHOOL</string>
+    <string name="wellcome">सा विद्या या विमुक्तये</string>
+    <string-array name="classes">
+        <item>Class 1</item>
+        <item>Class 2</item>
+        <item>Class 3</item>
+        <item>Class 4</item>
+        <item>Class 5</item>
+        <item>Class 6</item>
+        <item>Class 7</item>
+        <item>Class 8</item>
+        <item>Class 9</item>
+        <item>Class 10</item>
+        <item>Class 11(Sci)</item>
+        <item>Class 11(Com)</item>
+        <item>Class 12(Sci)</item>
+        <item>Class 12(Com)</item>
+    </string-array>
+</resources>

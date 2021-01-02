@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundsubjectlist"
+    tools:context=".HomeScreen">
+
+
+    <Button
+        android:id="@+id/learn"
+        android:layout_width="164dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button"
+        android:text="Learn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/liveclass"
+        app:layout_constraintTop_toBottomOf="@+id/clc" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="164dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button"
+        android:text="logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/contact"
+        app:layout_constraintTop_toBottomOf="@+id/learn"
+        app:layout_constraintVertical_bias="0.177" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:fontFamily="serif"
+        android:text="wwww"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/clc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="wwww"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="164dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button"
+        android:text="contact"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/logout"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liveclass"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <Button
+        android:id="@+id/liveclass"
+        android:layout_width="164dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button"
+        android:text="live class"
+        app:layout_constraintEnd_toStartOf="@+id/learn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
